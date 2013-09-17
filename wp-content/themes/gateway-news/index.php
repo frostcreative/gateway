@@ -24,7 +24,7 @@ if (!class_exists("Wordless")) {
 if (is_single()) {
   render_view("posts/single");
 } else if (is_front_page()){
-  render_view("posts/single");
+  render_view("custom-page/index");
 }else if (is_archive()) {
   render_view("posts/archive");
 } else {
